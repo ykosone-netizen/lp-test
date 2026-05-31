@@ -18,11 +18,12 @@ a{text-decoration:none}
 .hero p{font-size:18px;color:#475569;max-width:520px;margin:0 auto 2.5rem;line-height:1.9}
 .cta-primary{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#fff;font-size:16px;font-weight:700;padding:18px 44px;border-radius:50px;letter-spacing:0.02em;transition:all 0.25s;box-shadow:0 6px 24px rgba(37,99,235,.35)}
 .cta-primary:hover{transform:translateY(-3px);box-shadow:0 10px 32px rgba(37,99,235,.4)}
+/* ①ストーリー：18px→19px */
 .story{padding:7rem 2rem;max-width:700px;margin:0 auto;border-bottom:1px solid #e5e7eb}
 .sec-label{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:#2563eb;letter-spacing:0.18em;text-transform:uppercase;margin-bottom:2rem;font-weight:700}
 .sec-label::before{content:'';display:inline-block;width:20px;height:2px;background:#2563eb;border-radius:1px}
-.story-text{font-size:17px;color:#374151;line-height:2.1;margin-bottom:1.25rem}
-.punch{border-left:4px solid #2563eb;padding:1.25rem 1.75rem;margin:3rem 0;font-size:16px;color:#1e3a5f;line-height:2;background:linear-gradient(135deg,#eff6ff,#f0f9ff);border-radius:0 12px 12px 0;box-shadow:0 2px 12px rgba(37,99,235,.07)}
+.story-text{font-size:19px;color:#374151;line-height:2.1;margin-bottom:1.25rem}
+.punch{border-left:4px solid #2563eb;padding:1.25rem 1.75rem;margin:3rem 0;font-size:18px;color:#1e3a5f;line-height:2;background:linear-gradient(135deg,#eff6ff,#f0f9ff);border-radius:0 12px 12px 0;box-shadow:0 2px 12px rgba(37,99,235,.07)}
 .sec{padding:7rem 2rem;max-width:1000px;margin:0 auto}
 .sec-header{margin-bottom:3.5rem}
 .sec-title{font-size:clamp(26px,4vw,40px);font-weight:800;letter-spacing:-0.02em;color:#0f172a;margin-bottom:.6rem;line-height:1.25}
@@ -35,16 +36,18 @@ a{text-decoration:none}
 .cell-tag{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;padding:3px 12px;border-radius:20px;margin-bottom:.85rem;letter-spacing:0.06em}
 .cell-tag.pain{color:#2563eb;background:#eff6ff;border:1px solid #bfdbfe}
 .cell-tag.value{color:#059669;background:#dcfce7;border:1px solid #bbf7d0}
-.cell-q{font-size:15px;font-weight:700;color:#0f172a;margin-bottom:.5rem;line-height:1.5}
+/* ②カード：15px→18px、body：13px→15px */
+.cell-q{font-size:18px;font-weight:700;color:#0f172a;margin-bottom:.5rem;line-height:1.5}
 .value-cell .cell-q{color:#065f46}
-.cell-body{font-size:13px;color:#6b7280;line-height:1.8}
+.cell-body{font-size:15px;color:#6b7280;line-height:1.9}
 .svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
 .s-card{background:#f8fafc;border:1px solid #e5e7eb;border-radius:18px;padding:1.75rem;transition:all .2s;position:relative;overflow:hidden}
 .s-card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(180deg,#2563eb,#60a5fa)}
 .s-card:hover{border-color:#bfdbfe;background:#fff;box-shadow:0 4px 20px rgba(37,99,235,.08);transform:translateY(-2px)}
 .s-icon{font-size:28px;margin-bottom:.85rem;display:block}
-.s-card h3{font-size:14px;font-weight:700;color:#0f172a;margin-bottom:.4rem}
-.s-card p{font-size:13px;color:#6b7280;line-height:1.7}
+/* ③サービス内容：14px→18px、13px→16px */
+.s-card h3{font-size:18px;font-weight:700;color:#0f172a;margin-bottom:.4rem}
+.s-card p{font-size:16px;color:#6b7280;line-height:1.7}
 .cmp-wrap{overflow-x:auto;border-radius:16px;border:1px solid #e5e7eb;box-shadow:0 2px 16px rgba(0,0,0,.05)}
 table{width:100%;border-collapse:collapse;font-size:13px}
 thead tr{background:linear-gradient(135deg,#1e3a5f,#2563eb)}
@@ -252,7 +255,7 @@ tbody tr:last-child td:first-child{color:#1d4ed8;font-weight:800}
 
 <div class="profile-sec">
   <div class="profile-img-wrap">
-    <img class="profile-img" src="./profile.jpg";base64,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" alt="小曽根康晴" />
+    <img class="profile-img" src="./profile.jpg" alt="小曽根康晴" />
   </div>
   <div>
     <h3 class="profile-name">小曽根 康晴</h3>
